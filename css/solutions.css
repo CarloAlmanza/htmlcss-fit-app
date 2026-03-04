@@ -31,3 +31,9 @@
     content: "⚡";
     display: block;
 }
+
+input,
+select:focus{
+    color: blue;
+    box-shadow: 10px rgba(46, 29, 172, 0.2);
+}
