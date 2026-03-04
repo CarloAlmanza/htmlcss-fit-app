@@ -26,3 +26,8 @@
     border-left: 4px solid #2ecc71;
     background-color: rgb(196, 247, 196);
 }
+
+.exercise-item:nth-of-type(even) .exercise-name::before{
+    content: "⚡";
+    display: block;
+}
