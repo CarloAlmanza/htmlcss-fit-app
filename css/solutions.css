@@ -2,3 +2,12 @@
     content: "🔥";
     display: block;
 }
+
+.stats-grid:last-of-type{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.stats-grid:last-of-type .stat-number,
+.stats-grid:last-of-type .stat-label{
+    color: white;
+}
