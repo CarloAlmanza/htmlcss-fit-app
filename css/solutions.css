@@ -54,3 +54,8 @@ select:focus{
     font-size: 0.7rem;
     font-weight: bold;
 }
+
+.nav-item:hover{
+    background: #121a21;
+    color: blue;
+}
