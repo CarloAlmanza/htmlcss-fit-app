@@ -59,3 +59,22 @@ select:focus{
     background: #121a21;
     color: blue;
 }
+
+.quote-box::before{
+    content: '"';
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 3rem;
+    opacity: 0.3;
+}
+
+.quote-box::after{
+    content: '"';
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 3rem;
+    opacity: 0.3;
+    translate: 0 30%;
+}
