@@ -43,3 +43,14 @@ select:focus{
     background-color: aqua;
     box-shadow: 0 10px 20px rgba(9, 9, 216, 0.9)
 }
+
+.progress-fill::after{
+    content: "65%";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    translate: 0 -50%;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
